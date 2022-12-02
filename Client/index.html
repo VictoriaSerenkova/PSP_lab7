@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #tables {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .table {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        margin: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+      }
+
+      .select {
+        background-color: rgb(139, 139, 237);
+      }
+
+      .reserve {
+        background-color: rgb(6, 6, 78);
+      }
+      button {
+        background-color: aquamarine;
+        border-color: transparent;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 50%;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tables"></div>
+    <button onclick="reserve()">Зарезервировать</button>
+    <script src="js.js"></script>
+  </body>
+</html>
